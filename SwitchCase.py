@@ -30,3 +30,4 @@ END as Status from Students;"""
 result = sqldf(switch_query)
 print("-----Student Grade Sheet-----")
 print(result)
+
